@@ -14,10 +14,10 @@ public class MyClass {
             int b = (int) a - 5;
             if (b > x) {
                 if (b - x < 3) {
-                    x = (int) a;
+                    x = (int) b;
                 }
             }
-            if (a > x) {
+            else if (a > x) {
                 if (a - x < 3) {
                     x = (int) a;
                 }
