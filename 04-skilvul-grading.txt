@@ -2,19 +2,25 @@ import java.util.Scanner;
 
 public class MyClass {
     public static void main(String args[]) {
-        // Terimo input dari user.
         Scanner scanner= new Scanner(System.in);
         System.out.println("Enter Score: ");
         
         int x = scanner.nextInt();
         
         double a = 0;
-        // 68 nilai kelulusan
         if(x >= 68) {
             a = Math.ceil(x/10);
             a *= 10;
-            if (a - x < 3) {
-                x = (int) a;
+            int b = (int) a - 5;
+            if (b > x) {
+                if (b - x < 3) {
+                    x = (int) a;
+                }
+            }
+            if (a > x) {
+                if (a - x < 3) {
+                    x = (int) a;
+                }
             }
         }
         
