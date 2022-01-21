@@ -1,0 +1,16 @@
+Merubah semua suhu menjadi Celsius.
+
+F=Fahrenheit
+K=Kelvin
+C=Celsius
+
+F = 86
+1. Input F
+2. C = (F - 32) * (5/9)
+3. Display C
+4. End
+
+C = 45
+1. Input C
+2. Display C
+3. End

@@ -1,0 +1,9 @@
+mengubah angka tertentu menjadi Fizz, Buzz, dan FizzBuzz
+
+i + 1
+i 1<=100
+
+if (i % 3 = 0) display Fizz
+	(i % 5 = 0) display Buzz
+	(i % 15 = 0) display FizzBuzz
+else value of number
